@@ -36,7 +36,8 @@ const { locales, setLocale, getLocaleCookie, setLocaleCookie } = useI18n();
 const showDropdown = ref(false);
 
 const activeFlag = computed(() => {
-  return locales.value.find((i) => i.code === getLocaleCookie());
+  let activeCode = getLocaleCookie() || "en";
+  return locales.value.find((i) => i.code === activeCode);
 });
 
 // const availableLocales = computed(() => {
