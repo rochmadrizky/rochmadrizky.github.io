@@ -3,7 +3,7 @@
     <div
       class="h-96 flex items-center justify-center"
       :style="{
-        backgroundImage: `url('${backgroundAtas}')`,
+        backgroundImage: `url('/images/topography.svg')`,
       }"
     >
       <div class="px-10">
@@ -39,24 +39,24 @@
         </h1>
         <div class="flex items-center justify-center">
           <p class="font-deskripsi text-lg">{{ $t("blogs.tags") }}</p>
-          <img :src="code" alt="Code" class="w-8 h-8" />
+          <img src="/icon/semicolon.svg" alt="Code" class="w-8 h-8" />
         </div>
       </div>
 
       <img
-        :src="Dtriangle"
+        src="/images/triangle.svg"
         alt="hiasan"
         class="absolute lg:block hidden left-32 bottom-10"
       />
 
       <img
-        :src="Dtriangle"
+        src="/images/triangle.svg"
         alt="hiasan"
         class="absolute -rotate-90 lg:block hidden right-32 bottom-10"
       />
 
       <img
-        :src="dekorasi"
+        src="/images/decoration.svg"
         alt="hiasan"
         class="absolute bottom-2 lg:hidden block"
       />
@@ -64,13 +64,4 @@
   </div>
 </template>
 
-<script setup>
-import backgroundAtas from "@/images/topography.svg";
-import triangle from "@/images/triangle.svg";
-import decoration from "@/images/decoration.svg";
-import titikKoma from "@/icon/semicolon.svg";
-
-const Dtriangle = triangle;
-const dekorasi = decoration;
-const code = titikKoma;
-</script>
+<script setup></script>

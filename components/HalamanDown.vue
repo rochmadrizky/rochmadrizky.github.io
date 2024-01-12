@@ -17,35 +17,30 @@
 </template>
 
 <script setup>
-import runLogo from "@/logo/run.svg";
-import coffeeLogo from "@/logo/coffee.svg";
-import codeLogo from "@/logo/code.svg";
-import quotesLogo from "@/logo/quotes.svg";
-
 const cards = ref([
   {
     id: 1,
     title: "kegiatan.judul",
     description: "kegiatan.desk",
-    image: runLogo,
+    image: "/images/logo/run.svg",
   },
   {
     id: 2,
     title: "kode.judul",
     description: "kode.desk",
-    image: codeLogo,
+    image: "/images/logo/code.svg",
   },
   {
     id: 3,
     title: "ngopi.judul",
     description: "ngopi.desk",
-    image: coffeeLogo,
+    image: "images/logo/coffee.svg",
   },
   {
     id: 4,
     title: "kataKata.judul",
     description: "kataKata.desk",
-    image: quotesLogo,
+    image: "/images/logo/quotes.svg",
   },
 ]);
 </script>

@@ -3,7 +3,7 @@
     <div
       class="h-96 flex items-center justify-center"
       :style="{
-        backgroundImage: `url('${backgroundAtas}')`,
+        backgroundImage: `url('/images/topography.svg')`,
       }"
     >
       <div class="px-10">
@@ -40,19 +40,19 @@
       </div>
 
       <img
-        :src="Dtriangle"
+        src="/images/triangle.svg"
         alt="hiasan"
         class="absolute lg:block hidden left-32 bottom-10"
       />
 
       <img
-        :src="Dtriangle"
+        src="/images/triangle.svg"
         alt="hiasan"
         class="absolute -rotate-90 lg:block hidden right-32 bottom-10"
       />
 
       <img
-        :src="dekorasi"
+        src="/images/decoration.svg"
         alt="hiasan"
         class="absolute bottom-2 lg:hidden block"
       />
@@ -60,11 +60,4 @@
   </div>
 </template>
 
-<script setup>
-import backgroundAtas from "@/images/topography.svg";
-import triangle from "@/images/triangle.svg";
-import decoration from "@/images/decoration.svg";
-
-const Dtriangle = triangle;
-const dekorasi = decoration;
-</script>
+<script setup></script>

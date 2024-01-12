@@ -2,7 +2,7 @@
   <div class="max-w-4xl flex items-center justify-center">
     <div>
       <img
-        :src="fotoProfil"
+        src="/images/isMe.png"
         alt="Foto Profil"
         class="rounded-full mx-auto w-36 h-36 mb-3 ring-indigo-500 ring-2 p-0.5 bg-slate-50 dark:bg-gray-900"
       />
@@ -32,12 +32,7 @@
 </template>
 
 <script setup>
-import me from "@/me/isMe.png";
-import { IconBrandInstagram } from "@tabler/icons-vue";
-import { IconBrandGithub } from "@tabler/icons-vue";
-import { IconMail } from "@tabler/icons-vue";
-
-const fotoProfil = ref(me);
+import { IconBrandInstagram, IconMail } from "@tabler/icons-vue";
 
 const iconLogo = ref([
   {

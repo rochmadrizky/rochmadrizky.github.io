@@ -6,7 +6,7 @@
       <NuxtLink to="/">
         <button class="flex items-center gap-2">
           <img
-            :src="fotoProfil"
+            src="/images/isMe.png"
             alt="Foto Profil"
             class="rounded-full w-8 h-8 bg-slate-50 dark:bg-gray-900"
           />
@@ -28,7 +28,7 @@
         >
           <div class="flex flex-col items-center justify-center">
             <img
-              :src="fotoProfil"
+              src="/images/isMe.png"
               alt="Foto Profil"
               class="rounded-full w-20 h-20 ring-indigo-500 ring-2 p-0.5 bg-slate-50 dark:bg-gray-900"
             />
@@ -75,14 +75,9 @@
 </template>
 
 <script setup>
-import { IconHash } from "@tabler/icons-vue";
-import { IconMenuDeep } from "@tabler/icons-vue";
-import { IconX } from "@tabler/icons-vue";
-import me from "@/me/isMe.png";
+import { IconHash, IconMenuDeep, IconX } from "@tabler/icons-vue";
 
 const isSidebarOpen = ref(false);
-
-const fotoProfil = ref(me);
 
 const toggleMenu = () => {
   isSidebarOpen.value = !isSidebarOpen.value;
