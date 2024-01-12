@@ -6,7 +6,7 @@
         :key="card.id"
         class="flex flex-col items-center justify-center bg-slate-50 dark:bg-gray-900 border-b-2 border-indigo-500 p-4 rounded-lg shadow-lg"
       >
-        <img :src="card.image" alt="Card Image" class="my-4 w-10 h-10" />
+        <img :src="card?.image" alt="Card Image" class="my-4 w-10 h-10" />
         <h2 class="text-lg font-logo mb-2 text-center">{{ $t(card.title) }}</h2>
         <p class="text-center font-deskripsi text-base">
           {{ $t(card.description) }}
