@@ -16,12 +16,10 @@ export default defineNuxtConfig({
       {
         code: 'id',
         name: "Indonesia",
-        // image: "/flag/id.svg",
       },
       {
         code: 'en',
         name: "English",
-        // image: "/flag/en.svg",
       },
     ],
     defaultLocale: "en",
