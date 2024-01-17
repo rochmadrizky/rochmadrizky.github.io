@@ -11,7 +11,7 @@
             class="rounded-full w-8 h-8 bg-slate-50 dark:bg-gray-900"
           />
           <h1 class="text-base font-logo text-indigo-500 hover:text-indigo-600">
-            RIZKYP
+            RIZKY
           </h1>
         </button>
       </NuxtLink>
@@ -43,10 +43,12 @@
             <NuxtLink
               @click="isSidebarOpen = false"
               to="/"
-              class="flex items-center my-4 text-indigo-500 hover:text-indigo-600"
+              class="flex items-center justify-between my-4 px-2 text-indigo-500 hover:text-indigo-600"
             >
-              <IconHash class="w-6 h-6 font-logo" />
-              <h1 class="font-logo text-base">RIZKYP</h1>
+              <h1 class="font-logo text-base">RIZKY</h1>
+              <IconArrowBadgeRightFilled
+                class="w-6 h-6 font-logo block md:hidden stroke-1"
+              />
             </NuxtLink>
             <MenuNavbar @onMenuClick="() => (isSidebarOpen = false)" />
           </div>
@@ -75,7 +77,11 @@
 </template>
 
 <script setup>
-import { IconHash, IconMenuDeep, IconX } from "@tabler/icons-vue";
+import {
+  IconArrowBadgeRightFilled,
+  IconMenuDeep,
+  IconX,
+} from "@tabler/icons-vue";
 
 const isSidebarOpen = ref(false);
 
