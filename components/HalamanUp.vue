@@ -2,7 +2,7 @@
   <div class="max-w-4xl flex items-center justify-center">
     <div>
       <img
-        src="/images/isMe.png"
+        src="/images/thisIsMe.png"
         alt="Foto Profil"
         class="rounded-full mx-auto w-36 h-36 mb-3 ring-indigo-500 ring-2 p-0.5 bg-slate-50 dark:bg-gray-900"
       />

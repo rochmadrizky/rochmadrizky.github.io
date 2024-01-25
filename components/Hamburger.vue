@@ -6,7 +6,7 @@
       <NuxtLink to="/">
         <button class="flex items-center gap-2">
           <img
-            src="/images/isMe.png"
+            src="/images/thisIsMe.png"
             alt="Foto Profil"
             class="rounded-full w-8 h-8 bg-slate-50 dark:bg-gray-900"
           />
@@ -28,7 +28,7 @@
         >
           <div class="flex flex-col items-center justify-center">
             <img
-              src="/images/isMe.png"
+              src="/images/thisIsMe.png"
               alt="Foto Profil"
               class="rounded-full w-20 h-20 ring-indigo-500 ring-2 p-0.5 bg-slate-50 dark:bg-gray-900"
             />
@@ -47,7 +47,7 @@
             >
               <h1 class="font-logo text-base">RIZKY</h1>
               <IconArrowBadgeRightFilled
-                class="w-6 h-6 font-logo block md:hidden stroke-1"
+                class="w-6 h-6 font-logo block lg:hidden stroke-1"
               />
             </NuxtLink>
             <MenuNavbar @onMenuClick="() => (isSidebarOpen = false)" />

@@ -34,6 +34,10 @@
           </template>
         </div>
       </div>
+
+      <div class="my-10">
+        <Notes />
+      </div>
     </div>
   </div>
 </template>

@@ -1,8 +1,6 @@
 <template>
   <div class="max-w-7xl mx-auto px-6">
-    <div
-      class="bg-slate-50 dark:bg-gray-900 border-b-2 border-indigo-500 p-4 md:p-8 rounded-lg shadow-lg relative"
-    >
+    <div class="relative">
       <div class="flex items-center justify-center w-full mx-auto">
         <div
           v-for="(step, index) in steps"
@@ -29,36 +27,6 @@
           ></div>
         </div>
       </div>
-
-      <!-- <div class="grid grid-cols-4">
-        <div
-          v-for="(step, index) in steps"
-          :key="index"
-          class="flex cursor-pointer"
-          @click="setCurrentStep(index + 1)"
-        >
-          <div
-            :class="{
-              'bg-indigo-500 text-white': index + 1 === currentStep,
-              'bg-indigo-100 text-black dark:bg-gray-950 dark:text-white':
-                index + 1 !== currentStep,
-            }"
-            class="rounded-full w-8 h-8 md:w-12 md:h-12 flex items-center justify-center relative"
-          >
-            {{ index + 1 }}
-
-            <div
-              v-if="index !== steps.length - 1"
-              :class="{
-                ' absolute top-1/2 left-full transform -translate-y-1/2 transition-all duration-300': true,
-                'bg-indigo-500 dark:bg-indigo-500 h-1.5 w-14 md:w-28':
-                  currentStep > index + 1,
-              }"
-              class="bg-indigo-100 dark:bg-gray-950 h-1.5 w-full absolute top-1/2 left-full transform -translate-y-1/2"
-            ></div>
-          </div>
-        </div>
-      </div> -->
 
       <div class="p-2">
         <div class="h-56 md:w-[585px] md:h-36 flex items-center justify-center">
