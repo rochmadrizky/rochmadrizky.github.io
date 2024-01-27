@@ -61,12 +61,13 @@
 
       <div class="flex items-center">
         <BtnBahasa />
+
         <button
           @click="toggleMenu"
           class="lg:hidden relative z-50 text-indigo-500 hover:text-indigo-600"
         >
           <component
-            :is="isSidebarOpen ? IconX : IconMenuDeep"
+            :is="isSidebarOpen ? IconX : IconMenu2"
             :class="{ '': isSidebarOpen, '': !isSidebarOpen }"
           ></component>
         </button>
@@ -77,11 +78,7 @@
 </template>
 
 <script setup>
-import {
-  IconArrowBadgeRightFilled,
-  IconMenuDeep,
-  IconX,
-} from "@tabler/icons-vue";
+import { IconArrowBadgeRightFilled, IconX, IconMenu2 } from "@tabler/icons-vue";
 
 const isSidebarOpen = ref(false);
 

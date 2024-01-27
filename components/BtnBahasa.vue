@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative"
+    class="relative px-[5px] py-[5px]"
     @mouseover="showDropdown = true"
     @mouseleave="showDropdown = false"
   >
@@ -10,7 +10,7 @@
       <img
         :src="`/flag/${activeFlag.code}.svg`"
         alt="language-flag"
-        class="h-5 w-5 mr-1"
+        class="h-5 w-5"
       />
     </button>
 
