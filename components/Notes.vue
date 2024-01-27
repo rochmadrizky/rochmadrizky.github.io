@@ -1,6 +1,8 @@
 <template>
   <div class="max-w-7xl mx-auto px-6">
-    <div class="relative">
+    <div
+      class="bg-slate-50 dark:bg-gray-900 border-b-2 border-indigo-500 p-4 md:p-8 rounded-lg shadow-lg"
+    >
       <div class="flex items-center justify-center w-full mx-auto">
         <div
           v-for="(step, index) in steps"

@@ -26,7 +26,7 @@
     </div>
 
     <div class="flex items-center justify-center pt-6 relative -top-36">
-      <BlogsContent />
+      <AboutMe />
     </div>
 
     <div class="relative flex items-center justify-center px-2 pb-10">

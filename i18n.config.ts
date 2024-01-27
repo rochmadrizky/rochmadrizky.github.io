@@ -27,9 +27,9 @@ export default defineI18nConfig(() => ({
       // bagian blogs/pages ---
       'blogs':{
         judul: 'Blog about me,',
-        desk: "I take notes, and share my web development journey.",
+        desk: "Let's get to know each other, and be friends.",
         tag: '#Blogs',
-        judul2: 'Here is a collection of my notes:',
+        judul2: 'Hi, there! Nice to know you:',
         salam: 'Regards! from me,',
         terimakasih: 'Thank you for visiting my website.',
         tags: '#regardsSemicolonCode',
@@ -40,7 +40,7 @@ export default defineI18nConfig(() => ({
         judul: 'Notes on my skills,',
         desk1: 'I share notes, what I learned regarding my web development.',
         tag: '#Expert',
-        judul2: 'Hi there! greetings from me:',
+        judul2: 'Here are the skills that I understand:',
         quotes: '" Some quote notes that I always remember.',
       },
       // 
@@ -96,7 +96,7 @@ export default defineI18nConfig(() => ({
 
       'notes3': {
         ke3: 'Using Frameworks.',
-        desk3: 'In short, speeding up the process of creating a website, some of the frameworks that I often use are: Tailwind Css, Vue Js, and Nuxt Js.',
+        desk3: 'In short, speeding up the process of creating a website, some of the frameworks that I often use are: Tailwind Css, Vue Js, React Js, Next Js, and Nuxt Js.',
       },
 
       'notes4': {
@@ -120,49 +120,6 @@ export default defineI18nConfig(() => ({
 
       'kutipan4': {
         quote4: ' In fact, the key to life is "Grateful".',
-      },
-      // ---
-
-      // BlogsContent
-      'blogs1': {
-        judul1: 'Idea notes',
-        desk1: 'To record ideas, if you find a new idea hehe.',
-      },
-
-      'blogs2': {
-        judul2: 'Experiment',
-        desk2: 'Sometimes I often make experiments, new things related to programming.',
-      },
-
-      'blogs3': {
-        judul3: 'Inspiration',
-        desk3: 'Sometimes inspiration comes unexpectedly, right?',
-      },
-      // ---
-
-      // Notes Pages
-      'note': {
-       judul: 'Idea notes,',
-       desk: 'The data will be filled in immediately.',
-       tag: '#IdeaNotes',
-      },
-
-      'exp': {
-        judul: 'Experiment,',
-        desk: 'The data will be filled in immediately.',
-        tag: '#Experiment',
-      },
-
-      'inspirasi': {
-        judul: 'Inspirations,',
-        desk: 'The data will be filled in immediately.',
-        tag: '#Inspirations',
-      },
-      // ---
-
-      // NotesContent
-      'notes': {
-        judul: 'The data is not yet available.',
       },
       // ---
     },
@@ -192,9 +149,9 @@ export default defineI18nConfig(() => ({
       // bagian blogs/pages ---
       'blogs':{
         judul: 'Blog tentang saya,',
-        desk: "Saya membuat catatan, dan berbagi perjalanan pengembangan web saya.",
+        desk: "Mari kita saling mengenal, dan berteman.",
         tag: '#Blog',
-        judul2: 'Berikut kumpulan catatan saya:',
+        judul2: 'Hai, yang di sana! Senang mengenalmu:',
         salam: 'Salam! dari saya,',
         terimakasih: 'Terima kasih telah mengunjungi situs web saya.',
         tags: '#salamKodeTitikKoma',
@@ -205,7 +162,7 @@ export default defineI18nConfig(() => ({
         judul: 'Catatan tentang keterampilan saya,',
         desk1: 'Saya berbagi catatan, apa yang saya pelajari mengenai pengembangan web saya.',
         tag: '#Keahlian',
-        judul2: 'Hai yang disana, salam dari saya:',
+        judul2: 'Berikut adalah keahlian yang saya pahami:',
         quotes: '" Beberapa catatan kutipan yang selalu saya ingat.',
       },
       //---
@@ -261,7 +218,7 @@ export default defineI18nConfig(() => ({
 
       'notes3': {
         ke3: 'Menggunakan Kerangka Kerja.',
-        desk3: 'Singkatnya untuk mempercepat proses pembuatan website, beberapa kerangka kerja yang sering saya gunakan adalah: Tailwind Css, Vue Js, dan Nuxt Js.',
+        desk3: 'Singkatnya untuk mempercepat proses pembuatan website, beberapa kerangka kerja yang sering saya gunakan adalah: Tailwind Css, Vue Js, React Js, Next Js, dan Nuxt Js.',
       },
 
       'notes4': {
@@ -285,47 +242,6 @@ export default defineI18nConfig(() => ({
 
       'kutipan4': {
         quote4: 'Padahal, kunci hidup adalah “Bersyukur”.',
-      },
-      // ---
-
-      // BlogsContent
-      'blogs1': {
-        judul1: 'Catatan ide',
-        desk1: 'Untuk mencatat ide, jika menemukan ide baru hehe.',
-      },
-
-      'blogs2': {
-        judul2: 'Percobaan',
-        desk2: 'Terkadang saya sering melakukan percobaan, hal-hal baru yang berhubungan dengan pemrograman.',
-      },
-
-      'blogs3': {
-        judul3: 'Inspirasi',
-        desk3: 'Terkadang inspirasi datang secara tak terduga, bukan?',
-      },
-      // ---
-
-      'note': {
-        judul: 'Catatan ide,',
-        desk: 'Data akan segera terisi.',
-        tag: '#CatatanIde',
-      },
-
-      'exp': {
-        judul: 'Percobaan,',
-        desk: 'Data akan segera terisi.',
-        tag: '#Percobaan',
-      },
-
-      'inspirasi': {
-        judul: 'Inspirasi,',
-        desk: 'Data akan segera terisi.',
-        tag: '#Inspirasi',
-      },
-
-      // NotesContent
-      'notes': {
-        judul: 'Datanya belum tersedia.',
       },
       // ---
     }

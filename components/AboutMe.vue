@@ -34,10 +34,6 @@
           </template>
         </div>
       </div>
-
-      <div class="my-10">
-        <Notes />
-      </div>
     </div>
   </div>
 </template>
@@ -46,6 +42,8 @@
 import { IconFileTypeHtml } from "@tabler/icons-vue";
 import { IconFileTypeCss } from "@tabler/icons-vue";
 import { IconBrandJavascript } from "@tabler/icons-vue";
+import { IconBrandNextjs } from "@tabler/icons-vue";
+import { IconBrandReact } from "@tabler/icons-vue";
 import { IconBrandVscode } from "@tabler/icons-vue";
 import { IconBrandTailwind } from "@tabler/icons-vue";
 import { IconBrandVue } from "@tabler/icons-vue";
@@ -77,7 +75,25 @@ const iconData = ref([
     text: "Tailwind",
     link: "https://tailwindcss.com/",
   },
-  { icon: IconBrandVue, text: "Vue", link: "https://vuejs.org/" },
-  { icon: IconBrandNuxt, text: "Nuxt", link: "https://nuxt.com/" },
+  {
+    icon: IconBrandVue,
+    text: "Vue",
+    link: "https://vuejs.org/",
+  },
+  {
+    icon: IconBrandNuxt,
+    text: "Nuxt",
+    link: "https://nuxt.com/",
+  },
+  {
+    icon: IconBrandReact,
+    text: "React",
+    link: "https://react.dev/",
+  },
+  {
+    icon: IconBrandNextjs,
+    text: "Next",
+    link: "https://nextjs.org/",
+  },
 ]);
 </script>
