@@ -88,6 +88,20 @@ const toggleMenu = () => {
   isSidebarOpen.value = !isSidebarOpen.value;
 };
 
+const closeSidebarOnEsc = (event) => {
+  if (event.key === "Escape" && isSidebarOpen.value) {
+    toggleMenu();
+  }
+};
+
+onMounted(() => {
+  document.addEventListener("keydown", closeSidebarOnEsc);
+});
+
+onUnmounted(() => {
+  document.removeEventListener("keydown", closeSidebarOnEsc);
+});
+
 const sidebarClasses = computed(() => {
   return (
     "fixed flex flex-col top-0 left-0 h-full w-64 md:w-72 lg:w-[600px] bg-indigo-100 dark:bg-gray-950 text-black px-4 transform transition-transform duration-300 ease-in-out z-50" +
