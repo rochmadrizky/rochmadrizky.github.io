@@ -64,13 +64,15 @@
 
         <button
           @click="toggleMenu"
-          class="lg:hidden relative z-50 text-indigo-500 hover:text-indigo-600"
+          class="lg:hidden relative z-50 text-indigo-500 hover:text-indigo-600 transition duration-300 transform"
+          :class="{ 'rotate-180': isSidebarOpen }"
         >
           <component
             :is="isSidebarOpen ? IconX : IconMenu2"
-            :class="{ '': isSidebarOpen, '': !isSidebarOpen }"
-          ></component>
+            class="w-6 h-6 font-logo block lg:hidden stroke-1"
+          />
         </button>
+
         <DarkMode />
       </div>
     </div>
